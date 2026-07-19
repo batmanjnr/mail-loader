@@ -969,37 +969,6 @@ Your Tall Friend ❤️`;
               </div>
             </section>
 
-            {/* Memories */}
-
-            <div className="py-12">
-  <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-12">Memories</h1>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-    {MEMORIES.map((memory) => (
-      <div
-        key={memory.id}
-        className="bg-white shadow-lg rounded-2xl overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300"
-      >
-        {memory.type === "video" ? (
-          <video
-            src={memory.url}
-            controls
-            className="w-full h-64 object-cover"
-          />
-        ) : (
-          <img
-            src={memory.url}
-            alt={memory.caption}
-            className="w-full h-64 object-cover"
-          />
-        )}
-        <div className="p-6">
-          <p className="text-base text-gray-700 font-medium">{memory.caption}</p>
-        </div>
-      </div>
-    ))}
-  </div>
-</div>
-
      
             {/* ================= SECTION 8: IF YOU EVER FORGET... ================= */}
             <section className="w-full py-20 px-6 bg-white max-w-4xl mx-auto">
