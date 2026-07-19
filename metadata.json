@@ -1,0 +1,6 @@
+{
+  "name": "Mail Loader",
+  "description": "An elegant pink-and-white loading page featuring a central card, an active 1-100% loader, and a delightful 'click to check mail' interactable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
